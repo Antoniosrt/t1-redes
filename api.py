@@ -9,7 +9,7 @@ app = FastAPI()
 async def root():
     return {"message": "Hello World"}
 
-@app.get("/ip-addresses/")
+@app.get("/get_data")
 async def get_ips():
     filename = "trabalho1.pcapng"
     dados = ler_arquivo_pcapng(filename)
