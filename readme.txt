@@ -1,6 +1,8 @@
 PARA RODAR A API É NECESSÁRIO SEGUIR OS PASSOS:
 1 - pip install "fastapi[all]"
-2 - uvicorn api:app --reload
+2 - pip install dkpt
+3 - pip install manuf
+4 - uvicorn api:app --reload
 
 ########################################################################## 
 
